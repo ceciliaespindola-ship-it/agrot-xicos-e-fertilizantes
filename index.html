@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Impacto dos Agrotóxicos e Fertilizantes</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>Impacto do Uso Excessivo de Agrotóxicos e Fertilizantes</h1>
+    <p id="initial-phrase">Refletir sobre os efeitos prejudiciais ao solo e à água é o primeiro passo para mudar!</p>
+  </header>
+
+  <!-- Botão de iniciar / tentar novamente -->
+  <div class="start-btn-container" id="start-container">
+    <button id="start-btn" class="btn-3d-shadow" onclick="startQuiz()">Iniciar o Quiz</button>
+  </div>
+
+  <!-- Seções do quiz -->
+  <section id="quiz-section" class="hidden">
+    <h2>Quiz Interativo</h2>
+    <div id="quiz-content">
+      <p id="question"></p>
+      <div id="choices"></div>
+      <button id="next-btn" class="btn-3d-shadow" onclick="nextQuestion()" style="display:none;">Próxima Pergunta</button>
+      <div id="feedback"></div>
+    </div>
+    <div id="result"></div>
+    <!-- Botão de tentar novamente, inicialmente escondido -->
+    <div style="margin-top:20px;">
+      <button id="restart-btn" class="btn-3d-shadow" style="display:none;" onclick="restartQuiz()">Tentar Novamente</button>
+    </div>
+  </section>
+</div>
+
+<!-- Ícones de luizinhas -->
+<div id="icons-container" style="position:fixed; top:10px; right:10px; display:flex; gap:10px; z-index:1000;">
+  <!-- as luizinhas aparecerão aqui -->
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
